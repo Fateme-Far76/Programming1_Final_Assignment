@@ -30,10 +30,13 @@ output_notebook()
 
 
 # # Loading the data
-# This covid data was sourced from [here](https://www.kaggle.com/datasets/albertovidalrod/uk-daily-covid-data-countries-and-regions) and population of counties were driven from the xls file [here](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland) <br>
+# This covid data was sourced from [here](https://www.kaggle.com/datasets/albertovidalrod/uk-daily-covid-data-countries-and-regions),population of counties were driven from the xls file [here](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland) and geojson were downloaded from this [website](https://geoportal.statistics.gov.uk/datasets/ons::regions-december-2021-en-bfc-1/explore?location=52.728747%2C-2.489483%2C6.96).<br>
 # The covid files have 16 columns, only 6 of them has been selected for this study.<br> 
-# In the other file there are a lot data about all countries, but only population of UK regions
+# In the population file there are a lot data about population of all countries, but only population of UK regions
 # Here is an explaination of each column:<br>
+# geojson file contains region code, lan and lng of them<br>
+# 
+# Here is the list of columns we chose for this assignment:<br> 
 # 
 #     "date": date in YYYY-MM-DD format 
 #     "area name": name of area covered in the file (region or nation name)
