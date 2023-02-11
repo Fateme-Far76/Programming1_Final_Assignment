@@ -29,7 +29,7 @@ Here is the list of the libraries necessary to run this notebook:
 - plotly
    
 ### Dataset
-The link to dataset is provided in the notebook file, read the introduction and download the files. Files need to be placed in Data folder
+The link to dataset is provided in the notebook file, read the introduction and download the files. Create a new folder and name it "Date", place data in there
 
 ### Usage
 just click run all and wait
